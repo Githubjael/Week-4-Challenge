@@ -13,40 +13,44 @@ if Put_On_Space_Helmet == 'yes':
 
     View_Space_Wreckage = input("Would you like to view the space wreckage?(Yes or No): ").lower()
     print("")
-    if View_Space_Wreckage == 'yes':
-        print("You exit your ship to board the Space Wreckage.")
-        print("You see bits of debris floating all around you.")
+    while not View_Space_Wreckage == 'yes':
+        print("Guess we're just waiting around then....")
         print("")
-        print("Entering the space wreckage....")
-        print("")
-        print("As you enter the space wreckage you look around and spot a 'Handy-Dandy XenoBlaster'!")
-        print("")
-        print("While exploring other areas of the wreckage you come across Zarnak The Talkative XenoMorph!")
-        print("You spot him as he spots you!")
-        print("")
-        print("He screams at you: 'AHHH FRESH MEAT FROM WEAK PREY!'")
+        View_Space_Wreckage = input("Would you like to view the space wreckage?(Yes or No): ").lower()
+
+    print("You exit your ship to board the Space Wreckage.")
+    print("You see bits of debris floating all around you.")
+    print("")
+    print("Entering the space wreckage....")
+    print("")
+    print("As you enter the space wreckage you look around and spot a 'Handy-Dandy XenoBlaster'!")
+    print("")
+    print("While exploring other areas of the wreckage you come across Zarnak The Talkative XenoMorph!")
+    print("You spot him as he spots you!")
+    print("")
+    print("He screams at you: 'AHHH FRESH MEAT FROM WEAK PREY!'")
+    print("")
+
+    Pocket_Knife = input("Do you instinctually pull out your pocket knife?!(You've always had it BTW)(Yes or No): ").lower()
+    print("")
+    if Pocket_Knife == 'yes':
+        print("Captain Nova pulls out his pocket knife, rushes at the Xenomorph and stabs him in his chest!")
+        print("Green-Yellowish blood starts gushing out of the Xenomorph and burns your hand!")
+        print("While you're distracted from the pain, HE BITES YOUR ENTIRE HEAD OFF!")
+        print("Oh you died BTW :(")
         print("")
 
-        Pocket_Knife = input("Do you instinctually pull out your pocket knife?!(You've always had it BTW)(Yes or No): ").lower()
-        print("")
-        if Pocket_Knife == 'yes':
-            print("Captain Nova pulls out his pocket knife, rushes at the Xenomorph and stabs him in his chest!")
-            print("Green-Yellowish blood starts gushing out of the Xenomorph and burns your hand!")
-            print("While you're distracted from the pain, HE BITES YOUR ENTIRE HEAD OFF!")
-            print("Oh you died BTW :(")
+    else:
+        XenoBlaster1 = input("Do you pull out your Handy-Dandy XenoBlaster?!(Yes or No): ").lower()
+        if XenoBlaster1 == 'no':
             print("")
-
+            print("He immediately lunges at you! HE CLAWS YOUR EYES OUT AND STARTS EATING YOUR GUTS")
+            print("YOUR STUPID ASS JUST DIED!")
+            print("")
         else:
-            XenoBlaster1 = input("Do you pull out your Handy-Dandy XenoBlaster?!(Yes or No): ").lower()
-            if XenoBlaster1 == 'no':
-                print("")
-                print("He immediately lunges at you! HE CLAWS YOUR EYES OUT AND STARTS EATING YOUR GUTS")
-                print("YOUR STUPID ASS JUST DIED!")
-                print("")
-            else:
-                print("YOU GRAB YOUR BLASTER AND FIRE OFF A SHOT INTO HIS WEIRD LOOKING SHOULDER!")
-                print("HE FLIES BACKWARDS AND HITS HIS HEAD ON A WALL!")
-                print("He quickly scurries away!")
+            print("YOU GRAB YOUR BLASTER AND FIRE OFF A SHOT INTO HIS WEIRD LOOKING SHOULDER!")
+            print("HE FLIES BACKWARDS AND HITS HIS HEAD ON A WALL!")
+            print("He quickly scurries away!")
 
 
 
