@@ -1,1 +1,1 @@
-print('')#intro text
+print('“You are the (soon to be) infamous Space Explorer, Captain Nova Starfinder. \nAfter hearing about a pirate with very valuable treasure hidden in the solar system, \nyou start your journey into deep space until you find a space wreckage.”')#intro text
