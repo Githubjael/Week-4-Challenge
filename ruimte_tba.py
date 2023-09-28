@@ -1,4 +1,3 @@
-
 print("")
 print("You are the (soon to be) infamous Space Explorer, Captain Nova Starfinder.")
 print("After hearing about a pirate with very valuable treasure hidden in the solar system,")
