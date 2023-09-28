@@ -2,7 +2,7 @@ print("")
 print("You are the (soon to be) infamous Space Explorer, Captain Nova Starfinder.")
 print("After hearing about a pirate with very valuable treasure hidden in the solar system,")
 print("you start your journey into deep space until you find a space wreckage.")
-print("You look around your ship and see your spacehelmet and your McDonald pattented food cube.")
+print("You look around your ship and see your spacehelmet, your McDonalds pattented food cube and your handheld planetary scanner.")
 print("")
 Put_On_Space_Helmet = input("Would you like to put on your space helmet?(Yes or No): ").lower()
 if Put_On_Space_Helmet == 'yes':
@@ -51,8 +51,21 @@ if Put_On_Space_Helmet == 'yes':
             print("HE FLIES BACKWARDS AND HITS HIS HEAD ON A WALL!")
             print("He quickly scurries away!")
 
+    #after Wreckage story ask player where to go next
+    Space_Travel = input("Where would you like to go?(Pyroxis, Cryosoria, Verdantora, Chronosphere) ").lower()
+    while not Space_Travel == "pyroxis":
+        print("")
+        print("You think to yourself not to waste your time on planets with nothing of interest at the moment.")
+        print("")
+        Space_Travel = input("Where would you like to go?(Pyroxis, Cryosoria, Verdantora, Chronosphere)").lower()
+        print("")
 
+    if Space_Travel == "pyroxis":
+        print("")
+        print("You fly to Pyroxis.")
+        print("")
 
+    
 
 else:
     print("")
